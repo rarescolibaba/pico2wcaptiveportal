@@ -19,7 +19,7 @@ Get the typings folder from [here](https://flatgithub.com/Josverl/micropython-st
 `pip install -U micropython-rp2-rpi_pico2_w-stubs --target typings --no-user` (if you want them installed globally, remove target and no-user flags)
 > But wait, what's the typings folder for?
 
-It adds MicroPython stubs for the Pico 2W, aka you will have autocompletion to help you modify the code. The .vscode/settings.json is relevant if you're using VS Code:
+It adds MicroPython stubs for the Pico 2W, i.e. you will have autocompletion to help you modify the code. The .vscode/settings.json is relevant if you're using VS Code:
 ```json
 "python.analysis.typeshedPaths": [
     "typings"
